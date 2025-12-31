@@ -10,6 +10,8 @@ load_dotenv()
 
 def main():
     print("Hello from langchain-course!")
+    print(os.environ["OPENAI_API_KEY"])
+    print(os.environ.get("LANGSMITH_API_KEY"))    
     information = """
     Elon Reeve Musk (/ˈiːlɒn/ EE-lon; born June 28, 1971) is a businessman and entrepreneur known for his leadership of Tesla, SpaceX, X, and xAI. Musk has been the wealthiest person in the world since 2021; as of December 2025, Forbes estimates his net worth to be around US$754 billion.
 
